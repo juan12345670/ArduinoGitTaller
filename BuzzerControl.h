@@ -9,8 +9,8 @@ class BuzzerControl {
   public:
     BuzzerControl(int p);   // Constructor
     void encender();
-    void apagar();
-    void beep(int tiempo_ms);
+    void apagar();        // Comeent
+    void beep(int tiempo_ms); 
 };
 
 #endif

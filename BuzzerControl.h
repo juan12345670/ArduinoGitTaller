@@ -8,7 +8,7 @@ class BuzzerControl {
     int pin;
   public:
     BuzzerControl(int p);   // Constructor
-    void encender();
+    void encender();        //Enceneder el Led
     void apagar();
     void beep(int tiempo_ms);
 };

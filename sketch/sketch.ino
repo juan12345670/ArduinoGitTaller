@@ -1,6 +1,6 @@
 #include "BuzzerControl.h"
 
-const int PinB = 4;
+const int PinB = 7; // Cambio a PIN 7
 // Buzzer conectado al pin 4
 BuzzerControl buzzer(PinB);
 

@@ -11,6 +11,6 @@ void setup() {
 void loop() {
   buzzer.beep(5000);   // Pitido de 500 ms
   delay(1000);        // Pausa 1 segundo
-  buzzer.beep(200);   // Pitido corto de 200 ms
+  buzzer.beep(20000);   // Pitido corto de 200 ms
   delay(500);
 }
